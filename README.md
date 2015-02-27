@@ -1,4 +1,4 @@
-##Value Of Pi in Python
+##PythonPi
 
 Get the Value of Pi upto n decimal digits using this Python Script. Uses the chudnovsky algorithm implemented using the Pyton Decimal Data Type.
 
