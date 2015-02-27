@@ -7,7 +7,7 @@ except:
 
 setup(
     name = "PythonPi",
-    version = '1.0.0',
+    version = '1.0.2',
     author = 'Pradipta Bora',
     author_email = 'pradd@outlook.com',
     description = "Get the Value of Pi upto as many decimal places as needed",

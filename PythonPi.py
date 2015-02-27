@@ -11,11 +11,14 @@ Math provides fast square rooting
 Decimal gives the Decimal data type which is much better than Float
 sys is needed to set the depth for recursion.
 """
+from __future__ import print_function
 import math, sys
 from decimal import *
 getcontext().rounding = ROUND_FLOOR
 sys.setrecursionlimit(100000)
-if sys.version_info[0] == 2:
+
+python2 = sys.version_info[0] == 2
+if python2:
 	input = raw_input
 
 def factorial(n):
